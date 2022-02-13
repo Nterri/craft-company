@@ -145,8 +145,8 @@ body.lock {
 }
 
 .header {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(64, 65, 73, 0.9)), to(rgba(64, 65, 73, 0.9))), url(png/bg.png) center/cover no-repeat, #404149;
-  background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)), url(png/bg.png) center/cover no-repeat, #404149;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(64, 65, 73, 0.9)), to(rgba(64, 65, 73, 0.9))), url(../png/bg.png) center/cover no-repeat, #404149;
+  background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)), url(../png/bg.png) center/cover no-repeat, #404149;
 }
 
 .head {
@@ -599,7 +599,7 @@ body.lock {
 }
 
 .btn::before {
-  content: url(svg/email.svg);
+  content: url(../svg/email.svg);
   -webkit-transform: translate(0, 1.5px);
           transform: translate(0, 1.5px);
 }
@@ -763,7 +763,7 @@ body.lock {
 }
 
 .answer__item-title::before {
-  content: url(svg/arrow.svg);
+  content: url(../svg/arrow.svg);
   margin: 0 15px 5px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -858,7 +858,7 @@ body.lock {
 }
 
 .reviews__text::before {
-  content: url(svg/text-decor.svg);
+  content: url(../svg/text-decor.svg);
   display: block;
   margin: 0 0 10px 0;
 }
