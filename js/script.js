@@ -17,7 +17,6 @@ if (iconMenu) {
     });
 };
 const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
-console.log(lockPaddingValue);
 
 $(document).ready(function () {
     $('.answer__item-title').click(function (e) {
